@@ -203,7 +203,7 @@ class AIService {
         String extraContext = '',
       }) async {
     try {
-      final apiKey = "AQ.Ab8RN6JNGogUY3nVWLGl7N4BEueQ-zYerSD-AAmdQy_GygDXpw";
+      final apiKey = "*******************";
       if (apiKey.isEmpty) return "Clé API manquante dans le fichier .env";
 
       final systemInstruction =
