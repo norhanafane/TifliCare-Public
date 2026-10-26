@@ -13,9 +13,9 @@ import 'package:pdf/widgets.dart' as pw;
 
 // --- FONCTION ENVOI EMAIL AUTOMATIQUE
 Future<void> _sendEmailAutomatique(String email, String pass, String code) async {
-  final serviceId = dotenv.env['EMAILJS_SERVICE_ID'] ?? 'service_h0e9omx';
-  final templateId = dotenv.env['EMAILJS_TEMPLATE_ID'] ?? 'template_ks197eu';
-  final publicKey = dotenv.env['EMAILJS_PUBLIC_KEY'] ?? 'bF-jo6U5WiKY8CSgW';
+  final serviceId = dotenv.env['EMAILJS_SERVICE_ID'] ?? '******';
+  final templateId = dotenv.env['EMAILJS_TEMPLATE_ID'] ?? '*****';
+  final publicKey = dotenv.env['EMAILJS_PUBLIC_KEY'] ?? '*****';
 
   final url = Uri.parse('https://api.emailjs.com/api/v1.0/email/send');
   try {
