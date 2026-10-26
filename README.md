@@ -29,7 +29,7 @@ TifliCare provides a secure, role-based digital ecosystem divided into a mobile 
 ---
 
 ## 📱 Tech Stack & Architecture
-To protect proprietary intellectual property, the core production code is housed in a private repository. This public showcase outlines the software architecture and technical stack:
+
 * **Mobile App:** Flutter (Cross-platform Android / iOS)
 * **Web Platform:** Responsive web interface for doctors and medical personnel
 * **Backend & Cloud Infrastructure:** Firebase (Firebase Authentication for RBAC security, Cloud Firestore for real-time data sync, and Cloud Storage)
@@ -41,4 +41,5 @@ To protect proprietary intellectual property, the core production code is housed
 * `/docs` : System architecture diagrams and workflow documentation.
 * `/screenshots` : User interface captures of the Flutter mobile app and medical web dashboards.
 * `README.md` : Comprehensive technical and functional project overview.
+* `lib` : source code of the project
 
